@@ -1,0 +1,248 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* poppins style
+    .poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+*/
+/* css style begin */
+body{
+    font-family: "Poppins", sans-serif;
+}
+.header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    align-items: center;
+    gap: 59px;
+    margin-right: 58px;
+    margin-top: 30px;
+}
+.header ul li a{
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.header ul li .contacts{
+    width: 191px;
+    height: 47px;
+    margin-left: 41px;
+    border-radius: 7px;
+    background-image: linear-gradient(to right, #000000, #16542B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.header ul li #contacts{
+    color: white;
+    margin: auto;
+}
+
+.header ul li img{
+    width: 39px;
+    height: 22px;
+}
+
+.landing-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 110px 58px 0px 58px;
+}
+
+.landing-left{
+    display: flex;
+    justify-content: start;
+}
+
+.landing-left-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.landing-left-content-subt{
+    margin-top: 28px;
+}
+
+.landing-left-content p{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #5F5F5F;
+}
+
+.landing-left-content .hire-btn{
+    width: 187px;
+    height: 54px;
+    border-radius: 1000px;
+    background-color: #86B6F6;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+   
+}
+
+.landing-left-content .hire-btn a{
+    color: #000;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.landing-left-content .hire-btn .hire-circle{
+    width: 46px;
+    height: 46px;
+    border-radius: 1000px;
+    background-color: #EEF5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+    margin-left: 21px;
+}
+
+.landing-left-content .hire-btn img{
+    width: 39px;
+    height: 22px;
+}
+
+.landing-right{
+    display: flex;
+    justify-content: end;
+}
+
+.landing-right img{
+    width: 486px;
+    height: 493px;
+}
